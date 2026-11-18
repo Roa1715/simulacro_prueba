@@ -1,0 +1,36 @@
+.navbar{
+    width: 100%;
+    padding: 12px 30px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+
+}
+
+.menu span{
+    font-size: 22px;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-right: auto;
+    color: black;
+}
+
+.menu a{
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #333;
+    white-space: nowrap;
+}
+
+.menu i{
+    font-size: 14px;
+}
